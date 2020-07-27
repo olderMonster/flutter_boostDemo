@@ -1,0 +1,1391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		13EA303BE4CA00A2ACBB221B4CC6120D /* flutter_module */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3BD876AD91634C9A0679E1B2A434EC4E /* Build configuration list for PBXAggregateTarget "flutter_module" */;
+			buildPhases = (
+			);
+			dependencies = (
+				6284AA7F1E2509332FDD904E39070931 /* PBXTargetDependency */,
+			);
+			name = flutter_module;
+		};
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B26E11467D023FA6CDCE36F75198812F /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		03E3E7DCCAD3EF94FAFF82B06758ABA5 /* Pods-SwiftProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF20AAF3FF1FD9BB16366796E9261C83 /* Pods-SwiftProject-dummy.m */; };
+		0DC3F8F0BD2BF2E6621ED8C9F761F280 /* flutter_boost-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23693FEDD36F4C61380EB772D9571737 /* flutter_boost-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E025692E68522FE23AB7DD590631024 /* FLBFlutterEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F68F70971710E6DB956E9070808FCBB0 /* FLBFlutterEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F99C4B81B1FCC7AB53D9848E8C8D3B3 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7177B6BAFA17B1C1029C07A5886911 /* GeneratedPluginRegistrant.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1460216DB1300C8C89D747A887A64A5B /* FlutterBoost.h in Headers */ = {isa = PBXBuildFile; fileRef = 08EE813443C91C5218EB5D09D413E4D0 /* FlutterBoost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B14347EF3A37141AA236CBF235E0428 /* FLBFlutterProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E1226A9263B4C83F8B2158F6CF3C8D7F /* FLBFlutterProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2684A7BEEBE7FFBAD9A2EDA313586F72 /* BoostChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B49C128713EFCD7EA83E7D429DEAABF /* BoostChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EB2406F03B4B31642B19E51F49C2CD8 /* FLBFlutterAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7218C3310F2F06F07E9E8D8AB50F33 /* FLBFlutterAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B8377F6D0A01E2468F23D2C57CF9B8 /* flutter_boost-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 224B51E9C8917C98E64621B1B2A79741 /* flutter_boost-dummy.m */; };
+		497AEE43C27182368D1E068EA85492CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4F274CE1293939A1DE59D70F2CD168D0 /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A18CA7748D01D828BA4DB9FEF482151 /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55308442C89B246EDF8B9CA30A005D05 /* BoostMessageChannel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 022CD80435E3DB9A030FCFDDD98F82E8 /* BoostMessageChannel.mm */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		664159609021C628DC8C07D3FDE1AA86 /* BoostMessageChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = 876871BF0E28EB52EEBADC0A440D692C /* BoostMessageChannel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D165D162F384BEBA806FC625CDCF70B /* FLBFlutterContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB15F8AFE6410964A03304CA7B739FE /* FLBFlutterContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DD9FDEEA21CB34618882E644DF8EC0D /* FLBFlutterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFABBDD178050845DB2FAC2738AB4F34 /* FLBFlutterAppDelegate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B2599EAA7DF6029B328CB43F85AD773 /* FLBCollectionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 844F018826BC3BB31F6EE360831231C4 /* FLBCollectionHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7DD7922A9614C58077E88029DF6FF94A /* FLBFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D8CB1184EB7E783791EABC81CB6AB4 /* FLBFactory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7FE1D27F2B55E8354088B96B10597D74 /* FLBFlutterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 807CF82C7F101BF52034A3A22AFC7F7D /* FLBFlutterEngine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		82C9C40506386C64D6DFD339F37F7D81 /* FLBFlutterContainerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B98CAEA2C64FCE12941D5C8F9E9168 /* FLBFlutterContainerManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8862AACFDBB44D4713FC57353B60841F /* FLBFlutterApplicationInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BEF3361E406581D5242032BA1E8B67A /* FLBFlutterApplicationInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9191F89C5866E469E8E9EC0A8DA82E32 /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0332A5579E27E4D577F8EA31447ABA /* FlutterPluginRegistrant-dummy.m */; };
+		A02FA1BD8BEA62DF74E15B432647046D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A4F86E6C7B8FB66F02D4241A6361A851 /* FlutterBoostPlugin_private.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EFE805596563567E146115E5892161 /* FlutterBoostPlugin_private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A742796873A431859B24260046BC4B9B /* FLBFlutterApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = DA44C5B9BCF280141A46133234105D64 /* FLBFlutterApplication.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AA75BD46E2B16884222E53FEE252F473 /* Pods-SwiftProject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A82F55E6237597B276F43CE4910ECF /* Pods-SwiftProject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9DD2F9BC7AB9C4F8A74FE2D8E9C041 /* FlutterBoostPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B821C6BEE8B4DE58BD89F494CDB780C /* FlutterBoostPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B13CEC623B2166E829611EBA75EC0ECB /* FLBFlutterViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AB3B85D52A042716843E13947FCAE94 /* FLBFlutterViewContainer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B2FB62E5BE2E3786A4553A8B36F8E8C7 /* FlutterPluginRegistrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 338C2B8B80734B777F25AB24A610B86F /* FlutterPluginRegistrant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBC6816A970DE7A68A5CF28E0E4C0918 /* FLBFlutterApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE4E260AD6FB1631E3562876659EA22 /* FLBFlutterApplication.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD7DA94F32AD07C6589281A62AB3E28E /* FLBPlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C80072E3E590C9F92FFEC8E103E14B66 /* FLBPlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2357F785A7273B61C7B9D6386395964 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C2553F8D0C4A1D8BEF6FFE01D07A3200 /* FLBFlutterContainerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3FADA064BE5ED1FF74B5FB73F732C6 /* FLBFlutterContainerManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C9F71AFB740F1D7EF394079FCD9DC12C /* FlutterBoostPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9C558173C7761FCB02FF9CB24C97C8 /* FlutterBoostPlugin.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1675BE84B0DFAE37938E04B2157B2B1 /* FLBFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = C978A9F8C1C183AA6752A033D9D2798D /* FLBFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0C652FA106530B04B2AF4A9A5C47044 /* FLBAbstractFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 060ED569A215606397517CE1D4D9EDFA /* FLBAbstractFactory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E247353267EDF9558FA90E5CEF97C2F2 /* FLBCollectionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C5605CE1E229A353EE29BDB34E4AC5 /* FLBCollectionHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E40B9D6E8D714B9A5C935DE9BEC2BF5B /* BoostChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC3FF0F770B4ABDCE4BDA0392B2E1CD /* BoostChannel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E87A8ADB253B62A6705AB5957999E00E /* FLBTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5690A9DB69BD7762A4EB3FF531357DA6 /* FLBTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA4AF4398EACC07565636E5EB4C9B143 /* FLBFlutterViewContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E4909226E1502ACDC9CF6A8B51F997B /* FLBFlutterViewContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5A5F013CFFCB41D7AA0A83AA7AE5F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		4F5BCDC12A922CBF58C75AD0955623E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		62660171AEACE0678EF0C92958BB6A5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		99AC7495B4D9C90B8688AC61996B5C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B8808275333168F01704732CA0911E;
+			remoteInfo = flutter_boost;
+		};
+		D45924B3057649EB8E7B34D59883AEDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B8808275333168F01704732CA0911E;
+			remoteInfo = flutter_boost;
+		};
+		D9B9AD42FB4389088E19EDC087FEEA5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		F76F120D7F626D3DDB74F0D2003CC98D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13EA303BE4CA00A2ACBB221B4CC6120D;
+			remoteInfo = flutter_module;
+		};
+		F8F2EFBEB4E1EF51E33A94BD31F201E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01BD7491E495E146604FB9E573BC29CC /* flutter_boost-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_boost-prefix.pch"; sourceTree = "<group>"; };
+		022CD80435E3DB9A030FCFDDD98F82E8 /* BoostMessageChannel.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = BoostMessageChannel.mm; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Messaging/BoostMessageChannel.mm"; sourceTree = "<group>"; };
+		03F9FA661C12CABEAD3273C80A10B417 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		060ED569A215606397517CE1D4D9EDFA /* FLBAbstractFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBAbstractFactory.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBAbstractFactory.h"; sourceTree = "<group>"; };
+		08EE813443C91C5218EB5D09D413E4D0 /* FlutterBoost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterBoost.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FlutterBoost.h"; sourceTree = "<group>"; };
+		0AB15F8AFE6410964A03304CA7B739FE /* FLBFlutterContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterContainer.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBFlutterContainer.h"; sourceTree = "<group>"; };
+		0AF8E4BAA80F7C57136E678EB8812869 /* Pods-SwiftProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FE4E260AD6FB1631E3562876659EA22 /* FLBFlutterApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterApplication.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Engine/FLBFlutterApplication.h"; sourceTree = "<group>"; };
+		10C53A8580C95861968551843C28E6CA /* LICENSE.md */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE.md; path = "../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/LICENSE.md"; sourceTree = "<group>"; };
+		10D8CB1184EB7E783791EABC81CB6AB4 /* FLBFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLBFactory.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Engine/FLBFactory.m"; sourceTree = "<group>"; };
+		13899CE73FF089ECB1F6F00BDF305A96 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		180CCBC745DA3C8A12357369E896E3E5 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		224B51E9C8917C98E64621B1B2A79741 /* flutter_boost-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_boost-dummy.m"; sourceTree = "<group>"; };
+		23693FEDD36F4C61380EB772D9571737 /* flutter_boost-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_boost-umbrella.h"; sourceTree = "<group>"; };
+		269852A45F2D14A51C4AAA201B3AC38A /* Pods-SwiftProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A18CA7748D01D828BA4DB9FEF482151 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		2B0332A5579E27E4D577F8EA31447ABA /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
+		2D9C558173C7761FCB02FF9CB24C97C8 /* FlutterBoostPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterBoostPlugin.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FlutterBoostPlugin.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		338C2B8B80734B777F25AB24A610B86F /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
+		34DDED60CD976956A410590900BF5B3B /* flutter_boost-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "flutter_boost-Info.plist"; sourceTree = "<group>"; };
+		398C56484A3F54B52FC540A53A53C6DE /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		3AB3B85D52A042716843E13947FCAE94 /* FLBFlutterViewContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLBFlutterViewContainer.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/container/FLBFlutterViewContainer.m"; sourceTree = "<group>"; };
+		43F4529ADB77583E8882665BC9F86B9F /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
+		442933D47210A00E28C04A77FE99EB3A /* flutter_boost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_boost.debug.xcconfig; sourceTree = "<group>"; };
+		467890335F50A937A955C01450F431E4 /* FlutterPluginRegistrant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlutterPluginRegistrant-Info.plist"; sourceTree = "<group>"; };
+		51C3BC0D4A5D6D15C94B5908B62D04C1 /* FlutterPluginRegistrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterPluginRegistrant.modulemap; sourceTree = "<group>"; };
+		547994C117856547BBD249448E046BD7 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5690A9DB69BD7762A4EB3FF531357DA6 /* FLBTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBTypes.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBTypes.h"; sourceTree = "<group>"; };
+		5882D8A8351A45DC4DBDB5B8475DF15F /* Pods-SwiftProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftProject.modulemap"; sourceTree = "<group>"; };
+		5A7218C3310F2F06F07E9E8D8AB50F33 /* FLBFlutterAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterAppDelegate.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBFlutterAppDelegate.h"; sourceTree = "<group>"; };
+		5C52D0E64DBB5DED9D0BEBE827411381 /* Pods-SwiftProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProject-frameworks.sh"; sourceTree = "<group>"; };
+		60B5767208455E88078644D7279594E5 /* flutter_boost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_boost.release.xcconfig; sourceTree = "<group>"; };
+		6BEF3361E406581D5242032BA1E8B67A /* FLBFlutterApplicationInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterApplicationInterface.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBFlutterApplicationInterface.h"; sourceTree = "<group>"; };
+		6E4909226E1502ACDC9CF6A8B51F997B /* FLBFlutterViewContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterViewContainer.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/container/FLBFlutterViewContainer.h"; sourceTree = "<group>"; };
+		807CF82C7F101BF52034A3A22AFC7F7D /* FLBFlutterEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLBFlutterEngine.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Engine/FLBFlutterEngine.m"; sourceTree = "<group>"; };
+		844F018826BC3BB31F6EE360831231C4 /* FLBCollectionHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLBCollectionHelper.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBCollectionHelper.m"; sourceTree = "<group>"; };
+		876871BF0E28EB52EEBADC0A440D692C /* BoostMessageChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoostMessageChannel.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Messaging/BoostMessageChannel.h"; sourceTree = "<group>"; };
+		8ECE4AC3946C0B0AB86C9232865C49A8 /* flutter_boost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = flutter_boost.framework; path = flutter_boost.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A42F0B0A062A8311BBA6CABFEB4ADE6 /* flutter_module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_module.debug.xcconfig; sourceTree = "<group>"; };
+		9A7177B6BAFA17B1C1029C07A5886911 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		9B49C128713EFCD7EA83E7D429DEAABF /* BoostChannel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BoostChannel.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/BoostChannel.h"; sourceTree = "<group>"; };
+		9B821C6BEE8B4DE58BD89F494CDB780C /* FlutterBoostPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterBoostPlugin.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FlutterBoostPlugin.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2531839EBFB536ADD72A74A8902126F /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
+		A3B98CAEA2C64FCE12941D5C8F9E9168 /* FLBFlutterContainerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterContainerManager.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBFlutterContainerManager.h"; sourceTree = "<group>"; };
+		A4C5605CE1E229A353EE29BDB34E4AC5 /* FLBCollectionHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBCollectionHelper.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBCollectionHelper.h"; sourceTree = "<group>"; };
+		ADD23AEFD4A6E70EF963979D94A2CF35 /* flutter_module.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = flutter_module.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEE6891957155FD370986017B47C8050 /* Pods-SwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		B7EFE805596563567E146115E5892161 /* FlutterBoostPlugin_private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterBoostPlugin_private.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FlutterBoostPlugin_private.h"; sourceTree = "<group>"; };
+		BE096D92142D722BB1AF91B021E4CE6B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BEC3FF0F770B4ABDCE4BDA0392B2E1CD /* BoostChannel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BoostChannel.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/BoostChannel.m"; sourceTree = "<group>"; };
+		C02A3D8C9C696BBDAC4554B444CC822E /* flutter_boost.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_boost.modulemap; sourceTree = "<group>"; };
+		C5CA50053D207D6E864B16FC51853813 /* flutter_boost.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_boost.podspec; path = "../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/flutter_boost.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C80072E3E590C9F92FFEC8E103E14B66 /* FLBPlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBPlatform.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBPlatform.h"; sourceTree = "<group>"; };
+		C978A9F8C1C183AA6752A033D9D2798D /* FLBFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFactory.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Engine/FLBFactory.h"; sourceTree = "<group>"; };
+		D5EC76C88FD76246FF973769F0A5105E /* flutter_module.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_module.release.xcconfig; sourceTree = "<group>"; };
+		D6A82F55E6237597B276F43CE4910ECF /* Pods-SwiftProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftProject-umbrella.h"; sourceTree = "<group>"; };
+		DA44C5B9BCF280141A46133234105D64 /* FLBFlutterApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLBFlutterApplication.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Engine/FLBFlutterApplication.m"; sourceTree = "<group>"; };
+		DB4F34D433F21D14545822AC18C7D578 /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		DD8E7D31BF119486F48B6B86DAA57FA2 /* Pods_SwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftProject.framework; path = "Pods-SwiftProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF20AAF3FF1FD9BB16366796E9261C83 /* Pods-SwiftProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftProject-dummy.m"; sourceTree = "<group>"; };
+		DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlutterPluginRegistrant.framework; path = FlutterPluginRegistrant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFABBDD178050845DB2FAC2738AB4F34 /* FLBFlutterAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLBFlutterAppDelegate.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBFlutterAppDelegate.m"; sourceTree = "<group>"; };
+		E1226A9263B4C83F8B2158F6CF3C8D7F /* FLBFlutterProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterProvider.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBFlutterProvider.h"; sourceTree = "<group>"; };
+		E906AE093DB85D42DCB8D09AA3E61293 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		EEC55FC21665F043A05AC8C2D7A75D6B /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
+		F68F70971710E6DB956E9070808FCBB0 /* FLBFlutterEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLBFlutterEngine.h; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Engine/FLBFlutterEngine.h"; sourceTree = "<group>"; };
+		FB598E7BF85291771E9FE6BE6E860E65 /* Pods-SwiftProject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProject-Info.plist"; sourceTree = "<group>"; };
+		FC3FADA064BE5ED1FF74B5FB73F732C6 /* FLBFlutterContainerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLBFlutterContainerManager.m; path = "../../../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios/Classes/Boost/FLBFlutterContainerManager.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31F2EB0143A58865B134F3B3FF3B5CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497AEE43C27182368D1E068EA85492CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433C6632C972430099D836B18BB8862E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02FA1BD8BEA62DF74E15B432647046D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78E4C56B23A9ED2040910E4CFE0FA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2357F785A7273B61C7B9D6386395964 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0120825BE045D4E212B55474246BD05F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13181E320B2AAB11B8CE628A43CED4E6 /* Pods-SwiftProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		032EC06443086BFC79BD40F400DB3993 /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				3C3A09A934590C4742813976DC7B705A /* demo */,
+			);
+			name = Desktop;
+			path = Desktop;
+			sourceTree = "<group>";
+		};
+		0659A012C3E71BB38658D3B9C84C5A5D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A42F0B0A062A8311BBA6CABFEB4ADE6 /* flutter_module.debug.xcconfig */,
+				D5EC76C88FD76246FF973769F0A5105E /* flutter_module.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../SwiftProject/Pods/Target Support Files/flutter_module";
+			sourceTree = "<group>";
+		};
+		077B5D58BBB11E3040DBA192A0DD6697 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				3FD9364CB804C2372E561536621377A3 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		07B8E03B39109E3C58A7DF5826676280 /* Boost */ = {
+			isa = PBXGroup;
+			children = (
+				9B49C128713EFCD7EA83E7D429DEAABF /* BoostChannel.h */,
+				BEC3FF0F770B4ABDCE4BDA0392B2E1CD /* BoostChannel.m */,
+				060ED569A215606397517CE1D4D9EDFA /* FLBAbstractFactory.h */,
+				A4C5605CE1E229A353EE29BDB34E4AC5 /* FLBCollectionHelper.h */,
+				844F018826BC3BB31F6EE360831231C4 /* FLBCollectionHelper.m */,
+				5A7218C3310F2F06F07E9E8D8AB50F33 /* FLBFlutterAppDelegate.h */,
+				DFABBDD178050845DB2FAC2738AB4F34 /* FLBFlutterAppDelegate.m */,
+				6BEF3361E406581D5242032BA1E8B67A /* FLBFlutterApplicationInterface.h */,
+				0AB15F8AFE6410964A03304CA7B739FE /* FLBFlutterContainer.h */,
+				A3B98CAEA2C64FCE12941D5C8F9E9168 /* FLBFlutterContainerManager.h */,
+				FC3FADA064BE5ED1FF74B5FB73F732C6 /* FLBFlutterContainerManager.m */,
+				E1226A9263B4C83F8B2158F6CF3C8D7F /* FLBFlutterProvider.h */,
+				C80072E3E590C9F92FFEC8E103E14B66 /* FLBPlatform.h */,
+				5690A9DB69BD7762A4EB3FF531357DA6 /* FLBTypes.h */,
+				08EE813443C91C5218EB5D09D413E4D0 /* FlutterBoost.h */,
+				9B821C6BEE8B4DE58BD89F494CDB780C /* FlutterBoostPlugin.h */,
+				2D9C558173C7761FCB02FF9CB24C97C8 /* FlutterBoostPlugin.m */,
+				B7EFE805596563567E146115E5892161 /* FlutterBoostPlugin_private.h */,
+			);
+			name = Boost;
+			path = Boost;
+			sourceTree = "<group>";
+		};
+		13181E320B2AAB11B8CE628A43CED4E6 /* Pods-SwiftProject */ = {
+			isa = PBXGroup;
+			children = (
+				5882D8A8351A45DC4DBDB5B8475DF15F /* Pods-SwiftProject.modulemap */,
+				0AF8E4BAA80F7C57136E678EB8812869 /* Pods-SwiftProject-acknowledgements.markdown */,
+				269852A45F2D14A51C4AAA201B3AC38A /* Pods-SwiftProject-acknowledgements.plist */,
+				DF20AAF3FF1FD9BB16366796E9261C83 /* Pods-SwiftProject-dummy.m */,
+				5C52D0E64DBB5DED9D0BEBE827411381 /* Pods-SwiftProject-frameworks.sh */,
+				FB598E7BF85291771E9FE6BE6E860E65 /* Pods-SwiftProject-Info.plist */,
+				D6A82F55E6237597B276F43CE4910ECF /* Pods-SwiftProject-umbrella.h */,
+				DB4F34D433F21D14545822AC18C7D578 /* Pods-SwiftProject.debug.xcconfig */,
+				AEE6891957155FD370986017B47C8050 /* Pods-SwiftProject.release.xcconfig */,
+			);
+			name = "Pods-SwiftProject";
+			path = "Target Support Files/Pods-SwiftProject";
+			sourceTree = "<group>";
+		};
+		14643A3D41EBAA3104E8D9841D4391F1 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				032EC06443086BFC79BD40F400DB3993 /* Desktop */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		192D2D7CD1A7348F235E5690D9339AAA /* flutter_boost */ = {
+			isa = PBXGroup;
+			children = (
+				54BBC490BBF9A0EB4B41611F41DB1447 /* ios */,
+			);
+			name = flutter_boost;
+			path = flutter_boost;
+			sourceTree = "<group>";
+		};
+		1E404C15BFF7B3D5C2C1C322C84CC339 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				39A747D14BEB5CA48BEAB36BD95D6F09 /* .symlinks */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		1F7CC88BCF6B03F2ABA54069FED30FA9 /* flutter_boost */ = {
+			isa = PBXGroup;
+			children = (
+				CEDCAB237BC9EA2261A09A33AC30208A /* .. */,
+				A89F6941EECF361BC8BECC385A273EDF /* Pod */,
+				E68531C07BE7816A7D7A027B5D03E264 /* Support Files */,
+			);
+			name = flutter_boost;
+			path = ../../flutter_module/.ios/Flutter/.symlinks/flutter_boost/ios;
+			sourceTree = "<group>";
+		};
+		23A387EFC575A902651D2F5F5B7A5AC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				07B8E03B39109E3C58A7DF5826676280 /* Boost */,
+				65EA1A35EC256D1AE332281A5290E61E /* container */,
+				E0362116A40DF61CCD82AC22402D7597 /* Engine */,
+				F9B41F09374763BAE85C14DE917F5486 /* Messaging */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2412559047B18FEE6B35C0F454E5E559 /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				2A18CA7748D01D828BA4DB9FEF482151 /* GeneratedPluginRegistrant.h */,
+				9A7177B6BAFA17B1C1029C07A5886911 /* GeneratedPluginRegistrant.m */,
+				7B2299A53EA3CCE07AE60C5A126E6E16 /* Pod */,
+				B4CBE15FA14442E8CECFE66DFE897770 /* Support Files */,
+			);
+			name = FlutterPluginRegistrant;
+			path = ../../flutter_module/.ios/Flutter/FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+		2C2FC29A36F138FCE953EA3C8B07EC5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE4AC3946C0B0AB86C9232865C49A8 /* flutter_boost.framework */,
+				DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant.framework */,
+				DD8E7D31BF119486F48B6B86DAA57FA2 /* Pods_SwiftProject.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF9443A78DAFDAF56DE9D4B1FE4C211 /* flutter_module */ = {
+			isa = PBXGroup;
+			children = (
+				839EAAAB241FD6AF8C6CFC8D7186201A /* .ios */,
+			);
+			name = flutter_module;
+			path = flutter_module;
+			sourceTree = "<group>";
+		};
+		39A747D14BEB5CA48BEAB36BD95D6F09 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				192D2D7CD1A7348F235E5690D9339AAA /* flutter_boost */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		3C3A09A934590C4742813976DC7B705A /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				7A7192ADAB8051920BA979A25185EA89 /* flutterboost */,
+			);
+			name = demo;
+			path = demo;
+			sourceTree = "<group>";
+		};
+		3FD9364CB804C2372E561536621377A3 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				14643A3D41EBAA3104E8D9841D4391F1 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		45F40E9FEFC02BE3AA995114E81334F6 /* flutter_module */ = {
+			isa = PBXGroup;
+			children = (
+				7D4BAFE9D7C3E5F94B5C8644CEF42C62 /* Frameworks */,
+				87EE84831F3C729F0F0E6B78D603DE60 /* Pod */,
+				0659A012C3E71BB38658D3B9C84C5A5D /* Support Files */,
+			);
+			name = flutter_module;
+			path = ../../flutter_module/.ios/Flutter;
+			sourceTree = "<group>";
+		};
+		54BBC490BBF9A0EB4B41611F41DB1447 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				23A387EFC575A902651D2F5F5B7A5AC4 /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		57CDA151F1A2B92E5F46C10AFBFCEBAF /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				9F8FE99192E99DB04FCDF851297002C7 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		65EA1A35EC256D1AE332281A5290E61E /* container */ = {
+			isa = PBXGroup;
+			children = (
+				6E4909226E1502ACDC9CF6A8B51F997B /* FLBFlutterViewContainer.h */,
+				3AB3B85D52A042716843E13947FCAE94 /* FLBFlutterViewContainer.m */,
+			);
+			name = container;
+			path = container;
+			sourceTree = "<group>";
+		};
+		7A7192ADAB8051920BA979A25185EA89 /* flutterboost */ = {
+			isa = PBXGroup;
+			children = (
+				2DF9443A78DAFDAF56DE9D4B1FE4C211 /* flutter_module */,
+			);
+			name = flutterboost;
+			path = flutterboost;
+			sourceTree = "<group>";
+		};
+		7B2299A53EA3CCE07AE60C5A126E6E16 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				547994C117856547BBD249448E046BD7 /* FlutterPluginRegistrant.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D4BAFE9D7C3E5F94B5C8644CEF42C62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E906AE093DB85D42DCB8D09AA3E61293 /* App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82D8B66C63CDC446411C97974A69BECB /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				F239D04C7F8F736DB975FEDA8A46BC9F /* Frameworks */,
+				FA9D13384011FFAC6B58ADFD3E71CE2B /* Pod */,
+				C40512FAFB19CDAA3E0DDEB70502F4A3 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../../flutter_module/.ios/Flutter/engine;
+			sourceTree = "<group>";
+		};
+		839EAAAB241FD6AF8C6CFC8D7186201A /* .ios */ = {
+			isa = PBXGroup;
+			children = (
+				1E404C15BFF7B3D5C2C1C322C84CC339 /* Flutter */,
+			);
+			name = .ios;
+			path = .ios;
+			sourceTree = "<group>";
+		};
+		87EE84831F3C729F0F0E6B78D603DE60 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ADD23AEFD4A6E70EF963979D94A2CF35 /* flutter_module.podspec */,
+				BE096D92142D722BB1AF91B021E4CE6B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F8FE99192E99DB04FCDF851297002C7 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				CFCB99632E8E15D3184A1341C1C12A7A /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A89F6941EECF361BC8BECC385A273EDF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C5CA50053D207D6E864B16FC51853813 /* flutter_boost.podspec */,
+				10C53A8580C95861968551843C28E6CA /* LICENSE.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B4CBE15FA14442E8CECFE66DFE897770 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51C3BC0D4A5D6D15C94B5908B62D04C1 /* FlutterPluginRegistrant.modulemap */,
+				2B0332A5579E27E4D577F8EA31447ABA /* FlutterPluginRegistrant-dummy.m */,
+				467890335F50A937A955C01450F431E4 /* FlutterPluginRegistrant-Info.plist */,
+				43F4529ADB77583E8882665BC9F86B9F /* FlutterPluginRegistrant-prefix.pch */,
+				338C2B8B80734B777F25AB24A610B86F /* FlutterPluginRegistrant-umbrella.h */,
+				EEC55FC21665F043A05AC8C2D7A75D6B /* FlutterPluginRegistrant.debug.xcconfig */,
+				A2531839EBFB536ADD72A74A8902126F /* FlutterPluginRegistrant.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../SwiftProject/Pods/Target Support Files/FlutterPluginRegistrant";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C40512FAFB19CDAA3E0DDEB70502F4A3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03F9FA661C12CABEAD3273C80A10B417 /* Flutter.debug.xcconfig */,
+				398C56484A3F54B52FC540A53A53C6DE /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../SwiftProject/Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		CEDCAB237BC9EA2261A09A33AC30208A /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				57CDA151F1A2B92E5F46C10AFBFCEBAF /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../../soft_local/flutter/.pub-cache/git/flutter_boost-d6e1c9192ed9347ba61e32a8af9afb6ae2fe4b74/ios";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D9E5ECA4814C08CBA5A226CD957C9DDA /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2C2FC29A36F138FCE953EA3C8B07EC5A /* Products */,
+				0120825BE045D4E212B55474246BD05F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCB99632E8E15D3184A1341C1C12A7A /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				077B5D58BBB11E3040DBA192A0DD6697 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9E5ECA4814C08CBA5A226CD957C9DDA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82D8B66C63CDC446411C97974A69BECB /* Flutter */,
+				1F7CC88BCF6B03F2ABA54069FED30FA9 /* flutter_boost */,
+				45F40E9FEFC02BE3AA995114E81334F6 /* flutter_module */,
+				2412559047B18FEE6B35C0F454E5E559 /* FlutterPluginRegistrant */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E0362116A40DF61CCD82AC22402D7597 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				C978A9F8C1C183AA6752A033D9D2798D /* FLBFactory.h */,
+				10D8CB1184EB7E783791EABC81CB6AB4 /* FLBFactory.m */,
+				0FE4E260AD6FB1631E3562876659EA22 /* FLBFlutterApplication.h */,
+				DA44C5B9BCF280141A46133234105D64 /* FLBFlutterApplication.m */,
+				F68F70971710E6DB956E9070808FCBB0 /* FLBFlutterEngine.h */,
+				807CF82C7F101BF52034A3A22AFC7F7D /* FLBFlutterEngine.m */,
+			);
+			name = Engine;
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		E68531C07BE7816A7D7A027B5D03E264 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C02A3D8C9C696BBDAC4554B444CC822E /* flutter_boost.modulemap */,
+				224B51E9C8917C98E64621B1B2A79741 /* flutter_boost-dummy.m */,
+				34DDED60CD976956A410590900BF5B3B /* flutter_boost-Info.plist */,
+				01BD7491E495E146604FB9E573BC29CC /* flutter_boost-prefix.pch */,
+				23693FEDD36F4C61380EB772D9571737 /* flutter_boost-umbrella.h */,
+				442933D47210A00E28C04A77FE99EB3A /* flutter_boost.debug.xcconfig */,
+				60B5767208455E88078644D7279594E5 /* flutter_boost.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../../SwiftProject/Pods/Target Support Files/flutter_boost";
+			sourceTree = "<group>";
+		};
+		F239D04C7F8F736DB975FEDA8A46BC9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				180CCBC745DA3C8A12357369E896E3E5 /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9B41F09374763BAE85C14DE917F5486 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				876871BF0E28EB52EEBADC0A440D692C /* BoostMessageChannel.h */,
+				022CD80435E3DB9A030FCFDDD98F82E8 /* BoostMessageChannel.mm */,
+			);
+			name = Messaging;
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		FA9D13384011FFAC6B58ADFD3E71CE2B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				13899CE73FF089ECB1F6F00BDF305A96 /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		33852771194658C7F3A00CEA6F238180 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2684A7BEEBE7FFBAD9A2EDA313586F72 /* BoostChannel.h in Headers */,
+				664159609021C628DC8C07D3FDE1AA86 /* BoostMessageChannel.h in Headers */,
+				E0C652FA106530B04B2AF4A9A5C47044 /* FLBAbstractFactory.h in Headers */,
+				E247353267EDF9558FA90E5CEF97C2F2 /* FLBCollectionHelper.h in Headers */,
+				D1675BE84B0DFAE37938E04B2157B2B1 /* FLBFactory.h in Headers */,
+				2EB2406F03B4B31642B19E51F49C2CD8 /* FLBFlutterAppDelegate.h in Headers */,
+				BBC6816A970DE7A68A5CF28E0E4C0918 /* FLBFlutterApplication.h in Headers */,
+				8862AACFDBB44D4713FC57353B60841F /* FLBFlutterApplicationInterface.h in Headers */,
+				6D165D162F384BEBA806FC625CDCF70B /* FLBFlutterContainer.h in Headers */,
+				82C9C40506386C64D6DFD339F37F7D81 /* FLBFlutterContainerManager.h in Headers */,
+				0E025692E68522FE23AB7DD590631024 /* FLBFlutterEngine.h in Headers */,
+				1B14347EF3A37141AA236CBF235E0428 /* FLBFlutterProvider.h in Headers */,
+				EA4AF4398EACC07565636E5EB4C9B143 /* FLBFlutterViewContainer.h in Headers */,
+				BD7DA94F32AD07C6589281A62AB3E28E /* FLBPlatform.h in Headers */,
+				E87A8ADB253B62A6705AB5957999E00E /* FLBTypes.h in Headers */,
+				0DC3F8F0BD2BF2E6621ED8C9F761F280 /* flutter_boost-umbrella.h in Headers */,
+				1460216DB1300C8C89D747A887A64A5B /* FlutterBoost.h in Headers */,
+				AC9DD2F9BC7AB9C4F8A74FE2D8E9C041 /* FlutterBoostPlugin.h in Headers */,
+				A4F86E6C7B8FB66F02D4241A6361A851 /* FlutterBoostPlugin_private.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8ABB69CA8F1F7EE66DA779348145623 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FB62E5BE2E3786A4553A8B36F8E8C7 /* FlutterPluginRegistrant-umbrella.h in Headers */,
+				4F274CE1293939A1DE59D70F2CD168D0 /* GeneratedPluginRegistrant.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF33486138873FC96B4F6B1BC2EC181C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA75BD46E2B16884222E53FEE252F473 /* Pods-SwiftProject-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B25576CD15D25D1B5123F238F0C37F6 /* Pods-SwiftProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E16F10D2190DBE7B94E72E3C5CFFC4A /* Build configuration list for PBXNativeTarget "Pods-SwiftProject" */;
+			buildPhases = (
+				CF33486138873FC96B4F6B1BC2EC181C /* Headers */,
+				37F634BEC3F5471FD0ACA6DB6DB22C9A /* Sources */,
+				433C6632C972430099D836B18BB8862E /* Frameworks */,
+				B420BA5ED3CF877900EA993BF983CA11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D5AA224EDCBD83E90607E17467197A1 /* PBXTargetDependency */,
+				41725E3F7C2CB3FFB48BF5B52851A481 /* PBXTargetDependency */,
+				991D18CD3D818AD6AF408ABE04182C77 /* PBXTargetDependency */,
+				FF967B27DB9E029E7411D2F817B952FA /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftProject";
+			productName = "Pods-SwiftProject";
+			productReference = DD8E7D31BF119486F48B6B86DAA57FA2 /* Pods_SwiftProject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43B8808275333168F01704732CA0911E /* flutter_boost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3C1F4CD42ABBCB16203BA75B6BFC41 /* Build configuration list for PBXNativeTarget "flutter_boost" */;
+			buildPhases = (
+				33852771194658C7F3A00CEA6F238180 /* Headers */,
+				640C4DC54D09DAA6CC4D828CC35BC868 /* Sources */,
+				C78E4C56B23A9ED2040910E4CFE0FA82 /* Frameworks */,
+				5A7A9A6BE72DC101FB3CB87F851D27DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E69AB2DAD8BE63209FD50C4DAB6D0B5 /* PBXTargetDependency */,
+			);
+			name = flutter_boost;
+			productName = flutter_boost;
+			productReference = 8ECE4AC3946C0B0AB86C9232865C49A8 /* flutter_boost.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7371F9B73186F0D6CD9EA9A8E700F8 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */;
+			buildPhases = (
+				B8ABB69CA8F1F7EE66DA779348145623 /* Headers */,
+				9BD0A60470C1E42B8BB36A359BA40426 /* Sources */,
+				31F2EB0143A58865B134F3B3FF3B5CFC /* Frameworks */,
+				FA8F16070637DF853ABEDC8F0BA8A545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13222D7C7C30DFA0D5B8D76A9E0567CA /* PBXTargetDependency */,
+				09FA6FDA69DD2FADF19FD2F2E8E241B2 /* PBXTargetDependency */,
+			);
+			name = FlutterPluginRegistrant;
+			productName = FlutterPluginRegistrant;
+			productReference = DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C2FC29A36F138FCE953EA3C8B07EC5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				43B8808275333168F01704732CA0911E /* flutter_boost */,
+				13EA303BE4CA00A2ACBB221B4CC6120D /* flutter_module */,
+				83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */,
+				1B25576CD15D25D1B5123F238F0C37F6 /* Pods-SwiftProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A7A9A6BE72DC101FB3CB87F851D27DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B420BA5ED3CF877900EA993BF983CA11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8F16070637DF853ABEDC8F0BA8A545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F634BEC3F5471FD0ACA6DB6DB22C9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E3E7DCCAD3EF94FAFF82B06758ABA5 /* Pods-SwiftProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		640C4DC54D09DAA6CC4D828CC35BC868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40B9D6E8D714B9A5C935DE9BEC2BF5B /* BoostChannel.m in Sources */,
+				55308442C89B246EDF8B9CA30A005D05 /* BoostMessageChannel.mm in Sources */,
+				7B2599EAA7DF6029B328CB43F85AD773 /* FLBCollectionHelper.m in Sources */,
+				7DD7922A9614C58077E88029DF6FF94A /* FLBFactory.m in Sources */,
+				6DD9FDEEA21CB34618882E644DF8EC0D /* FLBFlutterAppDelegate.m in Sources */,
+				A742796873A431859B24260046BC4B9B /* FLBFlutterApplication.m in Sources */,
+				C2553F8D0C4A1D8BEF6FFE01D07A3200 /* FLBFlutterContainerManager.m in Sources */,
+				7FE1D27F2B55E8354088B96B10597D74 /* FLBFlutterEngine.m in Sources */,
+				B13CEC623B2166E829611EBA75EC0ECB /* FLBFlutterViewContainer.m in Sources */,
+				40B8377F6D0A01E2468F23D2C57CF9B8 /* flutter_boost-dummy.m in Sources */,
+				C9F71AFB740F1D7EF394079FCD9DC12C /* FlutterBoostPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD0A60470C1E42B8BB36A359BA40426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9191F89C5866E469E8E9EC0A8DA82E32 /* FlutterPluginRegistrant-dummy.m in Sources */,
+				0F99C4B81B1FCC7AB53D9848E8C8D3B3 /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09FA6FDA69DD2FADF19FD2F2E8E241B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_boost;
+			target = 43B8808275333168F01704732CA0911E /* flutter_boost */;
+			targetProxy = D45924B3057649EB8E7B34D59883AEDE /* PBXContainerItemProxy */;
+		};
+		13222D7C7C30DFA0D5B8D76A9E0567CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 4F5BCDC12A922CBF58C75AD0955623E3 /* PBXContainerItemProxy */;
+		};
+		41725E3F7C2CB3FFB48BF5B52851A481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 3C5A5F013CFFCB41D7AA0A83AA7AE5F7 /* PBXContainerItemProxy */;
+		};
+		4E69AB2DAD8BE63209FD50C4DAB6D0B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = F8F2EFBEB4E1EF51E33A94BD31F201E3 /* PBXContainerItemProxy */;
+		};
+		5D5AA224EDCBD83E90607E17467197A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 62660171AEACE0678EF0C92958BB6A5B /* PBXContainerItemProxy */;
+		};
+		6284AA7F1E2509332FDD904E39070931 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = D9B9AD42FB4389088E19EDC087FEEA5D /* PBXContainerItemProxy */;
+		};
+		991D18CD3D818AD6AF408ABE04182C77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_boost;
+			target = 43B8808275333168F01704732CA0911E /* flutter_boost */;
+			targetProxy = 99AC7495B4D9C90B8688AC61996B5C3D /* PBXContainerItemProxy */;
+		};
+		FF967B27DB9E029E7411D2F817B952FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_module;
+			target = 13EA303BE4CA00A2ACBB221B4CC6120D /* flutter_module */;
+			targetProxy = F76F120D7F626D3DDB74F0D2003CC98D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F0B372F92F052D9ECBFAC1A4E236913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4F34D433F21D14545822AC18C7D578 /* Pods-SwiftProject.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		529D49BB2D1944079DF7A42133938A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 398C56484A3F54B52FC540A53A53C6DE /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53645872CCCE494F31BF8F1961883C5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2531839EBFB536ADD72A74A8902126F /* FlutterPluginRegistrant.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B5E1D1E26DDA7F9BA5F229FEF830D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5EC76C88FD76246FF973769F0A5105E /* flutter_module.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83E9447B8614D0E070BDC889313F0D2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A42F0B0A062A8311BBA6CABFEB4ADE6 /* flutter_module.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AD99D6DCB41153EAE422AA5673D9D90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F9FA661C12CABEAD3273C80A10B417 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AC50FF0B5F566BFFF3C45166028092FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 442933D47210A00E28C04A77FE99EB3A /* flutter_boost.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_boost/flutter_boost-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_boost/flutter_boost-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/flutter_boost/flutter_boost.modulemap";
+				PRODUCT_MODULE_NAME = flutter_boost;
+				PRODUCT_NAME = flutter_boost;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF2FEABF57B745460018035D1513D17E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC55FC21665F043A05AC8C2D7A75D6B /* FlutterPluginRegistrant.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E87AE7FB048827F80E5BCD78CB5BB25B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B5767208455E88078644D7279594E5 /* flutter_boost.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_boost/flutter_boost-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/flutter_boost/flutter_boost-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/flutter_boost/flutter_boost.modulemap";
+				PRODUCT_MODULE_NAME = flutter_boost;
+				PRODUCT_NAME = flutter_boost;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EEAC606602FE1B32A9899B9E4EE5C0BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE6891957155FD370986017B47C8050 /* Pods-SwiftProject.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProject/Pods-SwiftProject.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E16F10D2190DBE7B94E72E3C5CFFC4A /* Build configuration list for PBXNativeTarget "Pods-SwiftProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F0B372F92F052D9ECBFAC1A4E236913 /* Debug */,
+				EEAC606602FE1B32A9899B9E4EE5C0BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3C1F4CD42ABBCB16203BA75B6BFC41 /* Build configuration list for PBXNativeTarget "flutter_boost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC50FF0B5F566BFFF3C45166028092FE /* Debug */,
+				E87AE7FB048827F80E5BCD78CB5BB25B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7371F9B73186F0D6CD9EA9A8E700F8 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2FEABF57B745460018035D1513D17E /* Debug */,
+				53645872CCCE494F31BF8F1961883C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD876AD91634C9A0679E1B2A434EC4E /* Build configuration list for PBXAggregateTarget "flutter_module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E9447B8614D0E070BDC889313F0D2F /* Debug */,
+				6B5E1D1E26DDA7F9BA5F229FEF830D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26E11467D023FA6CDCE36F75198812F /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AD99D6DCB41153EAE422AA5673D9D90 /* Debug */,
+				529D49BB2D1944079DF7A42133938A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
