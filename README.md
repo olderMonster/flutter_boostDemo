@@ -1,5 +1,6 @@
 # flutter_boostDemo
 一个简单的OC与Flutter的交互，通过flutter_boost实现两端相互跳转
+`demo`中提供了原生跳转`Flutter`，然后`Flutter`跳转原生然后再跳转`Flutter`。也有`Flutter`通过`present`方式跳转原生
 
 注意在`AppDelegate`处注册`FlutterBoostPlugin`的回调中还注册了`Flutter`的`MethodChannel`
 ```
